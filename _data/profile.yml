@@ -22,7 +22,7 @@ twitter: shiqingyu  # Do not include the '@' symbol
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am Qingyu Shi, a PhD candidate at Peking University under the supervision of Professor Yunhai Tong. Before that, I received my Bachelor's degree at Beijing Institute of Technology in July 2023.
+    I am Qingyu Shi, a third-year PhD candidate at Peking University under the supervision of Professor Yunhai Tong. Before that, I received my Bachelor's degree at Beijing Institute of Technology in July 2023.
   </p>
   <p>
     My research interests lie in the multimodal generation, with a particular focus on diffusion models and unified models.
@@ -56,9 +56,11 @@ experience:
   date: Mar. 2025 - Dec. 2025
 
 awards:
+- name: CETC The 14TH Research Institute Glarun Scholarship
+  date: 2024
 - name: Merit Student
   date: 2024
-- name: Outstanding Graduating Student of Beijing
+- name: Beijing Excellent Graduates
   date: 2023
 - name: National Scholarship
   date: 2022
