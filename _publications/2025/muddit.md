@@ -4,6 +4,7 @@ date:           2026-01-26 00:01:00 +0800
 selected:       true
 pub:            "ICLR"
 pub_date:       "2026"
+pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Poster</span>'
 abstract: >-
   We introduce Muddit, a unified discrete diffusion transformer that enables fast and parallel generation across both text and image modalities. Empirical results show that Muddit achieves competitive or superior performance compared to significantly larger autoregressive models in both quality and efficiency.
 cover:   /assets/images/covers/muddit.png

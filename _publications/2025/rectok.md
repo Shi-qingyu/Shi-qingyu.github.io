@@ -7,6 +7,7 @@ pub_date:       "2026"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Poster</span>'
 abstract: >-
   We introduce RecTok, a visual tokenizer trained with reconstruction distillation along rectified flow. It improves the balance between perceptual reconstruction and generation quality, enabling strong image generation with diffusion transformers.
+cover:          /assets/images/covers/rectok.png
 authors:
   - Qingyu Shi
   - Size Wu
@@ -17,6 +18,7 @@ authors:
   - Xiangtai Li
   - Xuelong Li
 links:
+  Page: https://shi-qingyu.github.io/rectok.github.io/
   Paper: https://arxiv.org/abs/2512.13421
   Code: https://github.com/Shi-qingyu/RecTok
 ---

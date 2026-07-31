@@ -50,6 +50,7 @@ academic_service:
 
 experience:
 - name: Tencent
+  logo: /assets/images/badges/tencent-square.png
   position: Qingyun Research Intern (Incoming)
   date: Aug. 2026
 
