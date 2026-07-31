@@ -1,12 +1,9 @@
 ---
 title:          "Beyond Text-to-Image: Liberating Generation with a Unified Discrete Diffusion Model"
-date:           2025-05-28 00:01:00 +0800
+date:           2026-01-26 00:01:00 +0800
 selected:       true
-# pub:            "ICCV"
-# pub_pre:        "Submitted to "
-pub_post:       'Under review.'
-# pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Poster</span>'
-pub_date:       "2025"
+pub:            "ICLR"
+pub_date:       "2026"
 abstract: >-
   We introduce Muddit, a unified discrete diffusion transformer that enables fast and parallel generation across both text and image modalities. Empirical results show that Muddit achieves competitive or superior performance compared to significantly larger autoregressive models in both quality and efficiency.
 cover:   /assets/images/covers/muddit.png
@@ -23,5 +20,6 @@ authors:
   - Xuelong Li
   - Shuicheng YAN
 links:
+  Paper: https://openreview.net/forum?id=860c02516dad1781a85d2a24bb5b52bd4393f303
   Code: https://github.com/M-E-AGI-Lab/Muddit
 ---

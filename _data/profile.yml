@@ -1,6 +1,6 @@
 primary_name: "Qingyu Shi"
 secondary_name: "(史清宇)"
-navbar_name: "Welcome to Qingyu Shi's Homepage"
+navbar_name: "Qingyu Shi"
 
 positions:
 - name: Ph.D. Student
@@ -22,10 +22,10 @@ twitter: shiqingyu  # Do not include the '@' symbol
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am Qingyu Shi, a third-year PhD candidate at Peking University (PKU) under the supervision of Professor Yunhai Tong. Before that, I received my Bachelor's degree at Beijing Institute of Technology (BIT) in July 2023.
+    I am a third-year Ph.D. candidate at Peking University (PKU), advised by Prof. Yunhai Tong. Before that, I received my B.S. degree from Beijing Institute of Technology (BIT) in 2023.
   </p>
   <p>
-    My research interests lie in the multimodal generation, with a particular focus on diffusion models and unified models.
+    My research focuses on <strong>multimodal generation</strong>, particularly diffusion models, visual tokenization, and unified multimodal models.
   </p>
 
 portrait_url: /assets/images/photos/sqy.jpg
@@ -45,13 +45,18 @@ education:
   date: Sep. 2019 - Jul. 2023
 
 academic_service:
-- name: Conference reviewer&#58 CVPR, ECCV, ICCV, NeurIPS, ICML, ICLR
+- name: Conference Reviewer
+  detail: CVPR, ECCV, ICCV, NeurIPS, ICML, ICLR
 
 experience:
+- name: Tencent
+  position: Qingyun Research Intern (Incoming)
+  date: Aug. 2026
+
 - name: ByteDance
   logo: /assets/images/badges/bytedance.png
   position: Research Intern
-  date: Dec. 2025 - present
+  date: Dec. 2025 - Jul. 2026
 
 - name: TeleAI
   logo: /assets/images/badges/teleai.png

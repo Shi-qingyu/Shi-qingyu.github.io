@@ -3,6 +3,12 @@ body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     padding-top: 5.0rem;
+    color: #172033;
+    background:
+        radial-gradient(circle at 8% 4%, rgba(37, 99, 235, 0.08), transparent 28rem),
+        radial-gradient(circle at 92% 12%, rgba(14, 165, 233, 0.07), transparent 24rem),
+        #f6f8fc !important;
+    line-height: 1.6;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -11,7 +17,8 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .card {
-    border-radius: 0.8rem!important;
+    border-radius: 1rem!important;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.07) !important;
 }
 
 .card-img-overlay {
@@ -43,7 +50,96 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .navbar {
-    opacity: 0.95;
+    opacity: 0.98;
+    background: rgba(15, 23, 42, 0.94) !important;
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+}
+
+.navbar-brand {
+    letter-spacing: -0.02em;
+}
+
+.brand-dot {
+    color: #60a5fa;
+}
+
+a {
+    color: #2563eb;
+    transition: color 0.18s ease, transform 0.18s ease;
+}
+
+a:hover {
+    color: #1d4ed8;
+    text-decoration: none;
+}
+
+.profile-hero {
+    overflow: hidden;
+    position: relative;
+}
+
+.profile-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0 0 auto 0;
+    height: 4px;
+    background: linear-gradient(90deg, #2563eb, #38bdf8, #8b5cf6);
+}
+
+.profile-name {
+    letter-spacing: -0.035em;
+    color: #0f172a;
+}
+
+.profile-portrait-wrap {
+    position: relative;
+}
+
+.profile-portrait {
+    width: 190px;
+    height: 215px;
+    object-fit: cover;
+    border-radius: 1rem;
+    box-shadow: 0 12px 28px rgba(15, 23, 42, 0.16);
+}
+
+.profile-divider {
+    border-color: #e8edf5;
+}
+
+.profile-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+}
+
+.profile-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.35rem 0.7rem;
+    border: 1px solid #dbe4f0;
+    border-radius: 999px;
+    background: #f8fafc;
+}
+
+.experience-logo {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+    flex: 0 0 22px;
+}
+
+.experience-logo-fallback {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    color: white;
+    background: linear-gradient(135deg, #2563eb, #38bdf8);
+    font-size: 0.72rem;
+    font-weight: 700;
 }
 
 .inline-badge {
@@ -60,6 +156,25 @@ h1, h2, h3, h4, h5, h6,
 .cover-image {
     width: 180px;
     max-height: 120px;
+}
+
+.border-gray {
+    border-color: #edf1f7 !important;
+}
+
+.abstract-links a {
+    display: inline-block;
+    margin: 0.2rem 0.35rem 0 0;
+    font-weight: 700;
+}
+
+@media (max-width: 767.98px) {
+    body { padding-top: 4.4rem; }
+    .card-body.p-5 { padding: 1.5rem !important; }
+    .profile-name { font-size: 1.75rem; }
+    .profile-links { gap: 0.4rem; }
+    .profile-links a { padding: 0.28rem 0.55rem; font-size: 0.88rem; }
+    .email-text { font-size: 0.78rem; }
 }
 
 .abstract-body {
@@ -89,4 +204,3 @@ div.lazy {
 .email-text {
     font-family: Source Code Pro, monospace;
 }
-
