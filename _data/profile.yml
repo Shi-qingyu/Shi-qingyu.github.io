@@ -50,9 +50,9 @@ academic_service:
 
 experience:
 - name: Tencent
-  logo: /assets/images/badges/tencent-square.png
-  position: Qingyun Research Intern (Incoming)
-  date: Aug. 2026
+  logo: /assets/images/badges/wechat.svg
+  position: Qingyun Research Intern
+  date: Aug. 2026 - present
 
 - name: ByteDance
   logo: /assets/images/badges/bytedance.png
